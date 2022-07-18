@@ -33,14 +33,14 @@
 		<button onclick="window.location.href='/index.html'"
 			class="text-center text-4xl text-white mt-8">MEBLORED</button>
 		<div class="grid grid-cols-3 mb-2 w-1/3 text-center text-xl mt-8 divide-x">
-			<div class="no-underline hover:underline decoration-pink-500 text-white">
+			<div class="no-underline hover:underline decoration-red-700 text-white">
 				<a href="/hakkimizda.html">HAKKIMIZDA</a>
 			</div>
-			<div class="no-underline hover:underline decoration-indigo-500 text-white">
+			<div class="no-underline hover:underline decoration-red-700 text-white">
 				<a href="/blog.html">BLOG</a>
 			</div>
-			<div class="no-underline hover:underline decoration-sky-500 text-white">
-				<a href="">PROJELER</a>
+			<div class="no-underline hover:underline decoration-red-700 text-white">
+				<a href="/projeler.html">PROJELER</a>
 			</div>
 		</div>
 		<hr class="w-1/3" />
@@ -68,65 +68,59 @@
 
 
 	<footer class="bg-white shadow md:px-6 bg-black">
-		<div class="flex sm:items-center sm:justify-between">
-			<a href="https://ktun.edu.tr/" class="flex items-center mb-4 sm:mb-0">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Konya_Teknik_%C3%9Cniversitesi_logo.svg"
-					class="mr-3 h-8" alt="Flowbite Logo" />
-				<span class="self-center text-2xl font-semibold whitespace-nowrap text-white"></span>
+		<div class="grid grid-cols-3 ">
+		  <div id="ktun-meblored" class="justify-self-start mb-1 mt-1">
+			<a href="https://ktun.edu.tr/" target="_blank" class="flex justify-self-start sm:mb-0">
+			  <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Konya_Teknik_%C3%9Cniversitesi_logo.svg"
+				class="h-8" alt="Flowbite Logo" />
+				<p class="text-gray mt-1 ml-2">2022 KTUN MEBLORED. Tüm hakları saklıdır.</p>
 			</a>
-			<!-- <hr class="my-6 border-gray-200 sm:mx-auto border-gray-700 lg:my-8" /> -->
-			<div id="social-media-links" class="grid grid-cols-6 gap-0">
-				<a href="https://www.linkedin.com/company/meblored/"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
-						stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-							d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-					</svg>
-					<img src="/lin.svg" alt="test">
-				</a>
-
-				<a href="https://t.me/+zgMDbVyOMFMzZjc0"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<img class="text-center" src="/telegram.svg" alt="logo">
-				</a>
-
-				<a href="http://instagram.com/meblored/"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<img class="text-center" src="/instagram.svg" alt="logo">
-				</a>
-
-				<a href="https://twitter.com/meblored"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<img class="text-center" src="/twitter.svg" alt="logo">
-				</a>
-
-				<a href="https://discord.gg/MUSj6pwCzn"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<img class="text-center" src="/discord.svg" alt="logo">
-				</a>
-
-				<a href="http://chat.whatsapp.com/Hae5Z5UxkZdKFCtARaUhcV"
-					class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
-					<img class="text-center" href="#ansayfa" src="/whatsapp.svg" alt="logo">
-				</a>
-
-			</div>
-
-
-			<ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 text-gray-400">
-				<!-- <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6 ">MEBLORED</a>
-        </li> -->
-				<li>
-					<p class="mr-4 md:mr-6">MEBLORED. Tüm hakları saklıdır.</p>
-				</li>
-			</ul>
+		  </div>
+	
+		  <div id="social-media-links" class="justify-self-center grid grid-cols-6 gap-4 mb-1 mt-1">
+			<a href="https://www.linkedin.com/company/meblored/" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr--2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+				  d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+			  </svg>
+			  <img src="lin.svg" alt="test">
+			</a>
+	
+			<a href="https://t.me/+zgMDbVyOMFMzZjc0" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
+			  <img class="text-center" src="telegram.svg" alt="logo">
+			</a>
+	
+			<a href="http://instagram.com/meblored/" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
+			  <img class="text-center" src="instagram.svg" alt="logo">
+			</a>
+	
+			<a href="https://twitter.com/meblored" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
+			  <img class="text-center" src="twitter.svg" alt="logo">
+			</a>
+	
+			<a href="https://discord.gg/MUSj6pwCzn" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-black rounded-full focus:shadow-outline">
+			  <img class="text-center" src="discord.svg" alt="logo">
+			</a>
+	
+			<a href="http://chat.whatsapp.com/Hae5Z5UxkZdKFCtARaUhcV" target="_blank"
+			  class="inline-flex items-center justify-center w-8 h-8 mr-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-full focus:shadow-outline hover:bg-red-600">
+			  <img class="text-center" src="whatsapp.svg" alt="logo">
+			</a>
+	
+		  </div>
+	
+		  <div class="justify-self-end mb-1 mt-1">
+			<a href="https://docs.google.com/forms/d/19eJdjAVQ1sU1oQgPNNAxyQQkWgbgpa9MRW5dY0jyFP4" target="_blank">
+			   <button type="button" class="text-red-700 text-xs hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-full text-sm px-5 py-1 text-center dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900">Bize Katıl</button>
+			</a>
+		  </div>
 		</div>
-		<!-- <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2031 <a href="https://flowbite.com/"
-        class="hover:underline">Meblored™</a>. Tüm hakları sikimde değil.
-    </span> -->
-	</footer>
+	  </footer>
 
 
 	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
